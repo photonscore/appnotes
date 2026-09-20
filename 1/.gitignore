@@ -1,0 +1,8 @@
+# The venv, the data, and what ghost.py writes.
+/.venv/
+*.photons
+*.ghost.html
+*.full.png
+*.ghost.png
+.ipynb_checkpoints/
+__pycache__/
