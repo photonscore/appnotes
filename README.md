@@ -10,6 +10,7 @@ they run to gigabytes and are not kept here.
 | --- | --- | --- | --- |
 | [1](1/) | [Quantum ghost imaging](https://www.photonscore.de/appnotes/1) | LINCam | picks the photon pairs out of 244 million single photons by their picosecond time stamps, and draws the sample from the ones that never met it |
 | [2](2/) | [Phasor analysis with PhasorPy](https://www.photonscore.de/appnotes/2) | LINCam | reads a FLIM recording with the `photonscore` package and hands it to PhasorPy, which calibrates every pixel's phasor against the instrument response and finds three lifetime populations and the two lifetimes they mix |
+| [3](3/) | [Lifetime fitting with FLIMKit](https://www.photonscore.de/appnotes/3) | LINCam | lets FLIMKit open the same recording itself and fit it, four lifetimes to all photons, then every pixel with them held |
 
 ## How a note is laid out
 

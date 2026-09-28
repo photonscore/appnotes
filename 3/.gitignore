@@ -1,0 +1,8 @@
+# The venv, the data, and what fit.py writes.
+/.venv/
+*.photons
+*.fit.png
+*.fit-dark.png
+*.fit.tif
+.ipynb_checkpoints/
+__pycache__/
