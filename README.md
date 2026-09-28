@@ -9,6 +9,7 @@ they run to gigabytes and are not kept here.
 | | note | instrument | what the code does |
 | --- | --- | --- | --- |
 | [1](1/) | [Quantum ghost imaging](https://www.photonscore.de/appnotes/1) | LINCam | picks the photon pairs out of 244 million single photons by their picosecond time stamps, and draws the sample from the ones that never met it |
+| [2](2/) | [Phasor analysis with PhasorPy](https://www.photonscore.de/appnotes/2) | LINCam | reads a FLIM recording with the `photonscore` package and hands it to PhasorPy, which calibrates every pixel's phasor against the instrument response and finds three lifetime populations and the two lifetimes they mix |
 
 ## How a note is laid out
 
@@ -24,8 +25,8 @@ A folder per note, named by the note's number on the site:
 
 Every note's README has its own install line. They all need
 [uv](https://docs.astral.sh/uv/getting-started/installation/), which fetches
-Python as well, and the `photonscore` Python package, which reads and writes
-`.photons` files and comes from the
+Python as well; most need the `photonscore` Python package, which reads and
+writes `.photons` files and comes from the
 [downloads page](https://www.photonscore.de/support/downloads). Files a script
 writes open in Photonscore Preview, from the same page.
 

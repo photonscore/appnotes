@@ -1,0 +1,8 @@
+# The venv, the data, and what phasor.py writes.
+/.venv/
+*.photons
+*.phasor.png
+*.phasor-dark.png
+*.phasor.ome.tif
+.ipynb_checkpoints/
+__pycache__/
